@@ -12,7 +12,19 @@ public class Exercise_04 {
 
     public static void main(String[] args) {
 
-        // write code here
+        double radius = 3.14;
+        int height = 5;
+
+
+        // volume of a cylinder is πr^2h
+        double volume = Math.PI * (radius*radius) * height;
+
+        // surface area is 2πrh+2πr2
+        double surfaceArea = (2* Math.PI * radius * height) + (2 * Math.PI * radius * radius);
+
+        System.out.println("volume = " + volume);
+
+        System.out.println("surface area = " + surfaceArea);
 
     }
 }

@@ -39,7 +39,7 @@ public class Exercise_05 {
 
         for (int x = lowerBound; x <= upperBound; x++ ) {
             sum += x;
-            total = x;
+            total++;
         }
             average = sum/total;
 

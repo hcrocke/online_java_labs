@@ -8,4 +8,16 @@ package conditions_loops.labs;
  */
 
 public class Exercise_09 {
+
+    public static void main(String[] args) {
+
+        //create a loop
+        int x;
+
+        for (x = 0; x <=100; x++){
+            System.out.println(x);
+            if(x == 10) break;
+
+        }
+    }
 }

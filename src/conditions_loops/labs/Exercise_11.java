@@ -20,4 +20,18 @@ package conditions_loops.labs;
  */
 
 public class Exercise_11 {
+
+    public static void main(String[] args) {
+
+        int a;
+        int b;
+
+        for (a = 1; a <= 10; a++) {
+            for (b = a; b <= (a * 10); b += a) {
+                System.out.print(b + " " + "|");
+            }
+            System.out.println();
+        }
+
+    }
 }

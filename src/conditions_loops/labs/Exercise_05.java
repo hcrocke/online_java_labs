@@ -40,17 +40,13 @@ public class Exercise_05 {
         for (int x = lowerBound; x <= upperBound; x++ ) {
             sum += x;
             total = x;
-
         }
-
             average = sum/total;
 
         System.out.println("The sum is: " + sum);
         System.out.println("The average is: " + average);
 
-
         }
-
 
     }
 

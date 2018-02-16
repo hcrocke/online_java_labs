@@ -2,10 +2,13 @@ Answer the following questions:
 
 
 1.) What is an instance variable?
+    data member of a class, they (help) define a class
 
 2.) How do you create an object of a class Vehicle?
+    Vehicle object = new Vehicle ();
 
 3.) What is a reference variable? How is it different from a primitive type?
+    reference variables refer to the object, primitive variables are simply assigned the value given to them
 
 4.) What does it mean to pass by reference?
 
@@ -17,15 +20,18 @@ Answer the following questions:
 
 8.) How do you return a String from a method?
 
-9.) What is the return type of a method that does not returns any value?
+9.) What is the return type of a method that does not return any value?
+    void
 
 10.) When should a method be static?
 
 11.) What is an example of a time you would make an instance variable static? final?
 
 12.) When a method returns a value, what needs to be done with that value?
+    initialized?
 
 13.) What is method overloading?
+    assigning multiple methods to the same class (per parameter?)
 
 14.) Demonstrate method overloading by writing the method signature of two overloaded methods.
 

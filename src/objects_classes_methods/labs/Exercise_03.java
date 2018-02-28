@@ -12,4 +12,43 @@ package objects_classes_methods.labs;
  *
  */
 
+class One {
+
+    public static void main(String[] args) {
+        System.out.println("This is Class One, main method.");
+
+        One classObject = new One(); //object created of class1
+
+        Two object2 = new Two(); //object created of class2
+        int c = 4;
+        int d = 2;
+        System.out.println("c divided by d is: " + object2.divide(c, d));
+
+        Three object3 = new Three(); //object created of class3
+        // double sum = object3.add(1.2, 8.4);
+        System.out.println("the sum of x and y is: " + object3.add(1.2, 8.4));
+
+    }
+}
+
+class Two {
+
+    static int subtract(int a, int b) {
+        return a - b;
+
+    }
+
+    int divide(int c, int d){
+        return c / d;
+    }
+}
+
+class Three {
+
+    double add(double x, double y){
+        return x + y;
+
+    }
+
+}
 

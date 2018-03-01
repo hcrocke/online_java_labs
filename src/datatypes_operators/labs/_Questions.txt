@@ -53,14 +53,19 @@ Answer the following questions:
     no, an int is a primitive data type and a String is an object that defines and supports character strings
 
 15.) What is an array?
+    a collection of elements (variables) of the same type - index always starts at 0
 
 16.) What is the first index of an array?
+    always 0
 
 17.) Can you change the size of an array once it has been declared and initialized?
+    no
 
 18.) How do you print the 5th element in an array "exampleArray"?
+    System.out.println(exampleArray[4]);
 
 19.) What are the two ways you can declare and initialize an array? Demonstrate both.
+
 
 20.) How do you iterate through a multidimensional array?
 
